@@ -87,6 +87,9 @@ export default function Home() {
               )
             })
           }
+          {
+            !loader && <p className='textjjhg'>Uploading Please Wait ...</p>
+          }
         </div>
       </main>
     </>
